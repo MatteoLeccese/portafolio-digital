@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.html{
+    background-color: #dddddd;
+}
+/*Bloques de Contenido*/
+.contenedor{
+    width: 90%;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+	display: flex;
+}
+.izquierda{
+    width: 450px;
+    margin: 0px 20px;
+    flex: auto;
+    padding: 25px;
+    border-right: 5px solid rgb(40, 40, 40);
+    border-radius: 25px;
+    background-color: #b1d7d8;
+}
+.derecha{
+    width: 850px;
+    margin: 0px 20px;
+    flex: auto;
+    padding: 5px 25px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: #6fabb9;
+}
+header{
+    width: 100%;
+}
+.container-left{
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+.habilidad{
+    width: 225px;
+    padding: 2px 10px;
+    border-top: 1px solid rgb(150, 150, 150);
+}
+.container-right{
+    margin-top: 2px;
+    padding: 10px 25px;
+}
+.porcion{
+    width: 450px;
+    margin: 2px;
+    padding: 5px 10px;
+}
+.bloque{
+    justify-content: center;
+    align-content: center;
+    width: 350px;
+    padding: 20px;
+    flex: auto;
+    border-radius: 25px;
+    background-color: #a5a094;
+    height: 100px;
+    margin: 5px 10px;
+}
+.flex{
+    display: flex;
+}
+input{
+    float: right;
+    width: 50px;
+    padding: 2px;
+    border: 1px solid black;
+}
+/*Bloques de Contenido*/
+
+/*Texto*/
+h1{
+    font-size: 32pt;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    font-size: 24pt;
+    font-weight: bolder;
+}
+h3{
+    font-size: 18pt;
+    font-weight: bolder;
+}
+h4{
+    font-size: 16pt;
+    font-weight: normal;
+}
+h5, h6{
+    font-size: 12pt;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+    font-size: 13pt;
+    font-weight: lighter;
+    padding: 5px 10px;
+}
+.descripcion{
+    font-size: 10pt;
+    font-weight: lighter;
+    padding: 1px 2px;
+}
+meter{
+    width: 200px;
+    height: 20px;
+}
+.palomita{
+    color: rgb(30, 30, 30);
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    padding: 5px 10px;
+}
+ul li{
+    margin-top: 3px;
+}
+/*Texto*/
+
+/*Alineaciones*/
+.centrado{
+    text-align: center;
+}
+img{
+    width: 250px;
+    display: block;
+    margin: 2px auto;
+    border-radius: 15px;
+}
+/*Alineaciones*/
+
+
+
+
+
+
+@media screen and (max-width: 750px){
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.html{
+    background-color: #dddddd;
+}
+/*Bloques de Contenido*/
+.contenedor{
+    width: 100%;
+    padding: 10px;
+	display: flex;
+}
+.izquierda{
+    width: 250px;
+    margin: 0;
+    flex: auto;
+    padding: 25px;
+    border-right: 5px solid rgb(40, 40, 40);
+    border-radius: 25px;
+    background-color: #b1d7d8;
+}
+.derecha{
+    width: 450px;
+    margin: 0;
+    flex: auto;
+    padding: 5px 5px;
+    border-radius: 12px;
+    background-color: #6fabb9;
+}
+header{
+    width: 100%;
+}
+.container-left{
+    margin-top: 8px;
+    padding-top: 5x;
+    border-top: 1px solid black;
+}
+.habilidad{
+    width: 125px;
+    padding: 2px 10px;
+    border-top: 1px solid rgb(150, 150, 150);
+}
+.container-right{
+    margin-top: 2px;
+    padding: 5px 12px;
+}
+.porcion{
+    width: 2250px;
+    margin: 2px;
+    padding: 2px 5px;
+}
+.bloque{
+    justify-content: center;
+    align-content: center;
+    width: 175px;
+    padding: 20px;
+    flex: auto;
+    border-radius: 12px;
+    background-color: #a5a094;
+    height: 100px;
+    margin: 3px 8px;
+}
+.flex{
+    display: flex;
+}
+input{
+    float: right;
+    width: 25px;
+    padding: 2px;
+    border: 1px solid black;
+}
+/*Bloques de Contenido*/
+
+/*Texto*/
+h1{
+    font-size: 24pt;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    font-size: 18pt;
+    font-weight: bolder;
+}
+h3{
+    font-size: 16pt;
+    font-weight: bolder;
+}
+h4{
+    font-size: 13pt;
+    font-weight: normal;
+}
+h5, h6{
+    font-size: 9pt;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+    font-size: 9pt;
+    font-weight: lighter;
+    padding: 5px 10px;
+}
+.descripcion{
+    font-size: 7pt;
+    font-weight: lighter;
+    padding: 1px 2px;
+}
+meter{
+    width: 100px;
+}
+.palomita{
+    color: rgb(30, 30, 30);
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    padding: 5px 10px;
+}
+ul li{
+    margin-top: 3px;
+}
+/*Texto*/
+
+/*Alineaciones*/
+.centrado{
+    text-align: center;
+}
+img{
+    width: 125px;
+    display: block;
+    margin: 2px auto;
+    border-radius: 15px;
+}
+/*Alineaciones*/
+
+}/*@media screen and (max-width: 750px)*/
